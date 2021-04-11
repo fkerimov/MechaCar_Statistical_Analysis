@@ -1,4 +1,5 @@
 # Load package
+library(tidyverse)
 library(dplyr)
 
 # Import and read the csv
@@ -30,3 +31,7 @@ lot_summary <- suspension_coil_table %>%
             Variance = var(PSI),
             SD = sd(PSI),
             .groups = "keep")
+
+# Visualize spread
+plt <- ggplot(suspension_coil_table, aes(x = Manufacturing_Lot, y = PSI))
+plt + geom_boxplot()
