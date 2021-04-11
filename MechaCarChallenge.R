@@ -35,3 +35,5 @@ lot_summary <- suspension_coil_table %>%
 # Visualize spread
 plt <- ggplot(suspension_coil_table, aes(x = Manufacturing_Lot, y = PSI))
 plt + geom_boxplot()
+
+# Test commit
