@@ -56,3 +56,32 @@ T-Test of Lot3 provides evidence that there is no difference between the mean of
 **Lot3:**<br>
 ![lot3_t_test](images/lot3_t_test.png)<br>
 T-Test of Lot 3 confirms our findings in Summary Statistics of Suspension Coils above. P-Value of 0.04, assuming normal significance levels, suggests that there is evidence of difference between the mean of Lot3 suspension coils and the population mean. We therefore reject null hypothesis and accept the alternative hypothesis. 
+
+### 4. Study Design: MechaCar vs Competition
+
+For the first year of production and sales, the statistical study of MechaCar against the competition in its class can be done using the following metrics: 
+1. Cost
+2. Fuel efficiency (city and highway)
+3. Horsepower
+
+For cost, assuming there will be a range of cost depending on the build and specs, the following hypotheses may be appropriate: 
+* H(0): There is no difference in the mean of costs of MechaCar and the mean cost of competition in its class.
+* H(a): There is a difference in the mean of costs of MechaCar and the mean cost of competition in its class.
+*Alternative hypothesis is two-tailed*
+
+For fuel efficiency, the following hypotheses may be appropriate: 
+* H(0): There is no difference in the mean of MPG in the city (and highway) of MechaCar from the mean of MPG of the competition in its class.
+* H(1): There is a difference in the mean of the MPG in the city (and highway) of MechaCar from the mean of MPG of the competition in its class. 
+*Alternative hypothesis is two-tailed*
+
+For horsepower, the following hypotheses may be appropriate: 
+* H(0): There is no difference in the power output of Mechacar and the competition in its class
+* H(1): There is difference in the power output of Mechacar and the competition in its class
+*Alternative hypothesis is two-tailed*
+
+Statistical tests: 
+Above hypotheses can be tested withwith a two-sample t-Test. It is also advisable to use multiple linear regression model to predict factors that affect fuel efficiency and horsepower respectively.
+
+Types of data: 
+Continuous numerical data: engine volume, number of cylinders, weight, horsepower
+Categorical Data: transmission type, drivetrain
