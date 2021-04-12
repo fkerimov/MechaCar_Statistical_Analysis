@@ -66,17 +66,17 @@ For the first year of production and sales, the statistical study of MechaCar ag
 
 For cost, assuming there will be a range of cost depending on the build and specs, the following hypotheses may be appropriate: 
 * H(0): There is no difference in the mean of costs of MechaCar and the mean cost of competition in its class.
-* H(a): There is a difference in the mean of costs of MechaCar and the mean cost of competition in its class.
+* H(a): There is a difference in the mean of costs of MechaCar and the mean cost of competition in its class.<br>
 *Alternative hypothesis is two-tailed*
 
 For fuel efficiency, the following hypotheses may be appropriate: 
 * H(0): There is no difference in the mean of MPG in the city (and highway) of MechaCar from the mean of MPG of the competition in its class.
-* H(1): There is a difference in the mean of the MPG in the city (and highway) of MechaCar from the mean of MPG of the competition in its class. 
+* H(1): There is a difference in the mean of the MPG in the city (and highway) of MechaCar from the mean of MPG of the competition in its class.<br>
 *Alternative hypothesis is two-tailed*
 
 For horsepower, the following hypotheses may be appropriate: 
-* H(0): There is no difference in the power output of Mechacar and the competition in its class
-* H(1): There is difference in the power output of Mechacar and the competition in its class
+* H(0): There is no difference in the power output of Mechacar and the competition in its class.
+* H(1): There is difference in the power output of Mechacar and the competition in its class.<br>
 *Alternative hypothesis is two-tailed*
 
 Statistical tests: 
