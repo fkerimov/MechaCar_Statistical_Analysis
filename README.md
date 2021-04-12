@@ -83,5 +83,5 @@ Statistical tests:
 Above hypotheses can be tested withwith a two-sample t-Test. It is also advisable to use multiple linear regression model to predict factors that affect fuel efficiency and horsepower respectively.
 
 Types of data: 
-Continuous numerical data: engine volume, number of cylinders, weight, horsepower
+Continuous numerical data: engine volume, number of cylinders, weight, horsepower<br>
 Categorical Data: transmission type, drivetrain
