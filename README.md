@@ -41,7 +41,7 @@ Given that the design specification of MechaCar suspension coils require varianc
 ### 3. T-Tests on Suspension Coils
 #### Results
 ##### Summary of the T-Test of all manufacturing lots against the population mean of 1500
-![total_t_test](images/total_t_test.png)
+![total_t_test](images/total_t_test.png)<br>
 The T-Test of the PSI across all manufacturing lots shows that the mean of the dataset of all manufacturing lots is not different from the population mean. P-value 0.06 suggests that there is no sufficient evidence to reject the null hypothesis, i.e. that there is no difference between the mean of the dataset and the population mean.
 
 ##### Summary of the T-Test of each manufacturing lot
@@ -79,9 +79,9 @@ For horsepower, the following hypotheses may be appropriate:
 * H(1): There is difference in the power output of Mechacar and the competition in its class.<br>
 *Alternative hypothesis is two-tailed*
 
-Statistical tests: 
+**Statistical tests:** 
 Above hypotheses can be tested withwith a two-sample t-Test. It is also advisable to use multiple linear regression model to predict factors that affect fuel efficiency and horsepower respectively.
 
-Types of data: 
+**Types of data:**<br> 
 Continuous numerical data: engine volume, number of cylinders, weight, horsepower<br>
 Categorical Data: transmission type, drivetrain
