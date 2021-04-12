@@ -36,4 +36,10 @@ lot_summary <- suspension_coil_table %>%
 plt <- ggplot(suspension_coil_table, aes(x = Manufacturing_Lot, y = PSI))
 plt + geom_boxplot()
 
-# Test commit
+# Perform t-test to determine difference between pop. mean of 1500 and PSI of all lots
+t.test(suspension_coil_table$PSI, mu = 1500)
+
+# Perform three t-tests for each lot
+t.test(subset(suspension_coil_table, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
+t.test(subset(suspension_coil_table, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
+t.test(subset(suspension_coil_table, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
